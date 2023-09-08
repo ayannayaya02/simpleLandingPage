@@ -10,6 +10,7 @@
 
 /*16px or 18px is the average in px divide # by either of those numbers to get your rem or em*/
 
+/*the same way you made the picture behind purple background transparent using opacity, you could use a video the same way! */
 *, *:before, *:after{
     box-sizing:border-box;
 }
@@ -104,3 +105,17 @@ padding:6.67rem 8vw;
 
 
 /*the vw in 8vw means viewpoint width, creates larger view of background the background */
+
+@media (min-width:770px){
+    .form{
+        grid-template-columns:repeat(2,auto);
+                display:grid;
+        gap: 2em;
+    }
+
+    button{
+        width:auto;
+        padding:1em 2.5em;
+    
+    }
+}
