@@ -118,4 +118,9 @@ padding:6.67rem 8vw;
         padding:1em 2.5em;
     
     }
+
+    .left, .right{
+        flex-basis: 0;
+        flex-grow:1;
+    }
 }
